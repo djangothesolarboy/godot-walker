@@ -10,10 +10,10 @@ config_version=4
 
 [application]
 
-config/name="Endless-walker"
+config/name="godot walker"
 config/description="vampire survivor clone"
 run/main_scene="res://scenes/main.tscn"
-config/icon="res://icon.png"
+config/icon="res://assets/player_16x16v2.png"
 
 [input]
 
