@@ -17,6 +17,8 @@ func read_input():
 	if Input.is_action_pressed('right'):
 		velocity.x += 1
 		direction = Vector2(1, 0)
+	if Input.is_action_pressed('menu'):
+		get_tree().quit()
 	velocity = velocity.normalized() # checks for multiple key presses
 	velocity = move_and_slide(velocity * 200)
 
